@@ -1,0 +1,73 @@
+# -------------------------
+# PyCharm / JetBrains IDE
+# -------------------------
+.idea/
+*.iml
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Build / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs
+*.log
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# -------------------------
+# PyTorch / ML artifacts
+# -------------------------
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+runs/          # e.g., TensorBoard logs
+logs/
+wandb/         # if using Weights & Biases
+mlruns/        # if using MLflow
+
+# Datasets (keep if small, otherwise ignore)
+data/
+datasets/
+*.zip
+*.tar.gz
+*.h5
+*.npz
+*.npy
+
+# -------------------------
+# System files
+# -------------------------
+.DS_Store
+Thumbs.db
