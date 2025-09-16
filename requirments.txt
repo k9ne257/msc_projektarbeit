@@ -1,0 +1,20 @@
+# Core
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+xgboost>=2.1
+
+# Optimization & Tuning
+optuna>=3.6
+
+# Model persistence
+joblib>=1.4
+
+# Explainability
+shap>=0.46
+
+# Plotting & visualization
+matplotlib>=3.9
+
+# Optional: better progress bars in Optuna
+tqdm>=4.66
